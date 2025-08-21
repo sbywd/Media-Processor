@@ -653,6 +653,9 @@
         }
       }
     },
+    "新预设" : {
+      "comment" : "新预设"
+    },
     "无处理项" : {
       "comment" : "无处理项",
       "localizations" : {
@@ -665,6 +668,7 @@
       }
     },
     "更改" : {
+      "comment" : "更改",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -934,6 +938,15 @@
           }
         }
       }
+    },
+    "预设" : {
+      "comment" : "预设"
+    },
+    "预设名称" : {
+      "comment" : "预设名称"
+    },
+    "预设设置..." : {
+
     },
     "颜色: " : {
       "localizations" : {

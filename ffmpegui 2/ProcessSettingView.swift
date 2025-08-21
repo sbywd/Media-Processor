@@ -37,10 +37,10 @@ struct ProcessSettingView: View {
                         if item.resolutionEnabled {
                             HStack {
                                 TextField("宽度", text: $item.resolutionWidth)
-                                    .frame(width: 60, height: 0)
+                                    .frame(width: 60)
                                 Text("x")
                                 TextField("高度", text: $item.resolutionHeight)
-                                    .frame(width: 60, height: 0)
+                                    .frame(width: 60)
                                 Toggle("保持比例", isOn: $item.keepAspectRatio)
                             }
                             .disabled(item.exportAudioOnlyEnabled)
@@ -55,12 +55,11 @@ struct ProcessSettingView: View {
                         if item.frameRateEnabled {
                             HStack {
                                 TextField("帧速率", text: $item.frameRate)
-                                    .frame(width: 60, height: 0)
-                                    
+                                    .frame(width: 60)
                             }
                             .disabled(item.exportAudioOnlyEnabled)
                         }
-                        
+                        Spacer()
                     }
                     Divider()
                     HStack {
@@ -69,7 +68,7 @@ struct ProcessSettingView: View {
                         if item.videoBitrateEnabled {
                             HStack {
                                 TextField("位速率", text: $item.videoBitrate)
-                                    .frame(width: 60, height: 0)
+                                    .frame(width: 60)
                                 Text("Kbps")
                                 Picker("编码器", selection: $item.videoEncoder) {
                                     Text("HEVC (硬件)").tag("HEVC (硬件)")
@@ -80,7 +79,7 @@ struct ProcessSettingView: View {
                                     Text("AV1").tag("AV1")
                                     Text("MPEG-4").tag("MPEG-4")
                                 }
-                                .frame(width: 150, height: 0)
+                                .frame(width: 150)
                                 .onChange(of: item.videoEncoder) { newEncoder in
                                     if newEncoder.contains("Apple ProRes") {
                                         item.containerFormat = "MOV"
@@ -99,14 +98,14 @@ struct ProcessSettingView: View {
                         if item.audioBitrateEnabled {
                             HStack {
                                 TextField("位速率", text: $item.audioBitrate)
-                                    .frame(width: 60, height: 0)
+                                    .frame(width: 60)
                                 Text("Kbps")
                                 Picker("编码器", selection: $item.audioEncoder) {
                                     Text("AAC").tag("AAC")
                                     Text("MP3").tag("MP3")
                                     Text("Opus").tag("Opus")
                                 }
-                                .frame(width: 120, height: 0)
+                                .frame(width: 120)
                                 .disabled(item.containerFormat == "MP3")
                             }
                             .disabled(item.exportVideoOnlyEnabled)
@@ -140,7 +139,6 @@ struct ProcessSettingView: View {
                                     }
                                 }
                                 .disabled(item.videoEncoder.contains("Apple ProRes"))
-                                .frame(height: 0)
                             }
                         }
                         Spacer()
@@ -151,7 +149,7 @@ struct ProcessSettingView: View {
                         if item.speedEnabled {
                             HStack {
                                 TextField("百分比", text: $item.speedPercentage)
-                                    .frame(width: 60, height: 0)
+                                    .frame(width: 60)
                                 Text("%")
                             }
                         }
@@ -181,11 +179,11 @@ struct ProcessSettingView: View {
                         HStack {
                             Text("字号:")
                             TextField("大小", text: $item.subtitleFontSize)
-                                .frame(width: 40, height: 0)
+                                .frame(width: 40)
                             ColorPicker("描边颜色: ", selection: $item.subtitleOutlineColor)
                             Text("描边宽度: ")
                             TextField("宽度", text: $item.subtitleOutlineWidth)
-                                .frame(width: 40, height: 0)
+                                .frame(width: 40)
                         }
                     }
                     Divider()
