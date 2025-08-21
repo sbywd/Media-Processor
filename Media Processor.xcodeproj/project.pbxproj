@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E17AF992E54281000A00C67 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1E17AF982E54281000A00C67 /* Localizable.xcstrings */; };
+		1EB03D602E0FA7A2004F9EA8 /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1EB03D5F2E0FA7A2004F9EA8 /* ffmpeg */; };
+		1EB03D612E0FA7A7004F9EA8 /* ffmpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB03D5F2E0FA7A2004F9EA8 /* ffmpeg */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1EB03D632E0FA941004F9EA8 /* ffprobe in Resources */ = {isa = PBXBuildFile; fileRef = 1EB03D622E0FA941004F9EA8 /* ffprobe */; };
+		1EB03D642E0FA946004F9EA8 /* ffprobe in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB03D622E0FA941004F9EA8 /* ffprobe */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EE63DDF2E0D7BC20097B3AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EE63DC52E0D7BC00097B3AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EE63DCC2E0D7BC00097B3AE;
+			remoteInfo = ffmpegui;
+		};
+		1EE63DE92E0D7BC20097B3AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EE63DC52E0D7BC00097B3AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EE63DCC2E0D7BC00097B3AE;
+			remoteInfo = ffmpegui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EE63E222E0D8C6F0097B3AE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				1EB03D642E0FA946004F9EA8 /* ffprobe in CopyFiles */,
+				1EB03D612E0FA7A7004F9EA8 /* ffmpeg in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E17AF982E54281000A00C67 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		1EB03D5F2E0FA7A2004F9EA8 /* ffmpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = "<group>"; };
+		1EB03D622E0FA941004F9EA8 /* ffprobe */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffprobe; sourceTree = "<group>"; };
+		1EE63DCD2E0D7BC00097B3AE /* Media Processor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Media Processor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE63DDE2E0D7BC20097B3AE /* Media ProcessorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Media ProcessorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE63DE82E0D7BC20097B3AE /* Media ProcessorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Media ProcessorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1EE63DCF2E0D7BC00097B3AE /* ffmpegui */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ffmpegui;
+			sourceTree = "<group>";
+		};
+		1EE63DE12E0D7BC20097B3AE /* ffmpeguiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ffmpeguiTests;
+			sourceTree = "<group>";
+		};
+		1EE63DEB2E0D7BC20097B3AE /* ffmpeguiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ffmpeguiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EE63DCA2E0D7BC00097B3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE63DDB2E0D7BC20097B3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE63DE52E0D7BC20097B3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EE63DC42E0D7BC00097B3AE = {
+			isa = PBXGroup;
+			children = (
+				1E17AF982E54281000A00C67 /* Localizable.xcstrings */,
+				1EE63DCF2E0D7BC00097B3AE /* ffmpegui */,
+				1EE63DE12E0D7BC20097B3AE /* ffmpeguiTests */,
+				1EE63DEB2E0D7BC20097B3AE /* ffmpeguiUITests */,
+				1EE63DCE2E0D7BC00097B3AE /* Products */,
+				1EB03D5F2E0FA7A2004F9EA8 /* ffmpeg */,
+				1EB03D622E0FA941004F9EA8 /* ffprobe */,
+			);
+			sourceTree = "<group>";
+		};
+		1EE63DCE2E0D7BC00097B3AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EE63DCD2E0D7BC00097B3AE /* Media Processor.app */,
+				1EE63DDE2E0D7BC20097B3AE /* Media ProcessorTests.xctest */,
+				1EE63DE82E0D7BC20097B3AE /* Media ProcessorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EE63DCC2E0D7BC00097B3AE /* Media Processor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE63DF22E0D7BC20097B3AE /* Build configuration list for PBXNativeTarget "Media Processor" */;
+			buildPhases = (
+				1EE63DC92E0D7BC00097B3AE /* Sources */,
+				1EE63DCA2E0D7BC00097B3AE /* Frameworks */,
+				1EE63DCB2E0D7BC00097B3AE /* Resources */,
+				1EE63E222E0D8C6F0097B3AE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1EE63DCF2E0D7BC00097B3AE /* ffmpegui */,
+			);
+			name = "Media Processor";
+			packageProductDependencies = (
+			);
+			productName = ffmpegui;
+			productReference = 1EE63DCD2E0D7BC00097B3AE /* Media Processor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EE63DDD2E0D7BC20097B3AE /* Media ProcessorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE63DF52E0D7BC20097B3AE /* Build configuration list for PBXNativeTarget "Media ProcessorTests" */;
+			buildPhases = (
+				1EE63DDA2E0D7BC20097B3AE /* Sources */,
+				1EE63DDB2E0D7BC20097B3AE /* Frameworks */,
+				1EE63DDC2E0D7BC20097B3AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EE63DE02E0D7BC20097B3AE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1EE63DE12E0D7BC20097B3AE /* ffmpeguiTests */,
+			);
+			name = "Media ProcessorTests";
+			packageProductDependencies = (
+			);
+			productName = ffmpeguiTests;
+			productReference = 1EE63DDE2E0D7BC20097B3AE /* Media ProcessorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EE63DE72E0D7BC20097B3AE /* Media ProcessorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE63DF82E0D7BC20097B3AE /* Build configuration list for PBXNativeTarget "Media ProcessorUITests" */;
+			buildPhases = (
+				1EE63DE42E0D7BC20097B3AE /* Sources */,
+				1EE63DE52E0D7BC20097B3AE /* Frameworks */,
+				1EE63DE62E0D7BC20097B3AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EE63DEA2E0D7BC20097B3AE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1EE63DEB2E0D7BC20097B3AE /* ffmpeguiUITests */,
+			);
+			name = "Media ProcessorUITests";
+			packageProductDependencies = (
+			);
+			productName = ffmpeguiUITests;
+			productReference = 1EE63DE82E0D7BC20097B3AE /* Media ProcessorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EE63DC52E0D7BC00097B3AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1EE63DCC2E0D7BC00097B3AE = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1EE63DDD2E0D7BC20097B3AE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1EE63DCC2E0D7BC00097B3AE;
+					};
+					1EE63DE72E0D7BC20097B3AE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1EE63DCC2E0D7BC00097B3AE;
+					};
+				};
+			};
+			buildConfigurationList = 1EE63DC82E0D7BC00097B3AE /* Build configuration list for PBXProject "Media Processor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"zh-Hans",
+				Base,
+				en,
+			);
+			mainGroup = 1EE63DC42E0D7BC00097B3AE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1EE63DCE2E0D7BC00097B3AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EE63DCC2E0D7BC00097B3AE /* Media Processor */,
+				1EE63DDD2E0D7BC20097B3AE /* Media ProcessorTests */,
+				1EE63DE72E0D7BC20097B3AE /* Media ProcessorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EE63DCB2E0D7BC00097B3AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB03D602E0FA7A2004F9EA8 /* ffmpeg in Resources */,
+				1EB03D632E0FA941004F9EA8 /* ffprobe in Resources */,
+				1E17AF992E54281000A00C67 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE63DDC2E0D7BC20097B3AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE63DE62E0D7BC20097B3AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EE63DC92E0D7BC00097B3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE63DDA2E0D7BC20097B3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE63DE42E0D7BC20097B3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EE63DE02E0D7BC20097B3AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EE63DCC2E0D7BC00097B3AE /* Media Processor */;
+			targetProxy = 1EE63DDF2E0D7BC20097B3AE /* PBXContainerItemProxy */;
+		};
+		1EE63DEA2E0D7BC20097B3AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EE63DCC2E0D7BC00097B3AE /* Media Processor */;
+			targetProxy = 1EE63DE92E0D7BC20097B3AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE63DF02E0D7BC20097B3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EE63DF12E0D7BC20097B3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		1EE63DF32E0D7BC20097B3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = ffmpegui/ffmpegui.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ffmpegui/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ffmpegui/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ffmpegui.ffmpegui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1EE63DF42E0D7BC20097B3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = ffmpegui/ffmpegui.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ffmpegui/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ffmpegui/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ffmpegui.ffmpegui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1EE63DF62E0D7BC20097B3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ffmpegui.ffmpeguiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Media Processor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Media Processor";
+			};
+			name = Debug;
+		};
+		1EE63DF72E0D7BC20097B3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ffmpegui.ffmpeguiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Media Processor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Media Processor";
+			};
+			name = Release;
+		};
+		1EE63DF92E0D7BC20097B3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ffmpegui.ffmpeguiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ffmpegui;
+			};
+			name = Debug;
+		};
+		1EE63DFA2E0D7BC20097B3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ffmpegui.ffmpeguiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ffmpegui;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EE63DC82E0D7BC00097B3AE /* Build configuration list for PBXProject "Media Processor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE63DF02E0D7BC20097B3AE /* Debug */,
+				1EE63DF12E0D7BC20097B3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE63DF22E0D7BC20097B3AE /* Build configuration list for PBXNativeTarget "Media Processor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE63DF32E0D7BC20097B3AE /* Debug */,
+				1EE63DF42E0D7BC20097B3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE63DF52E0D7BC20097B3AE /* Build configuration list for PBXNativeTarget "Media ProcessorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE63DF62E0D7BC20097B3AE /* Debug */,
+				1EE63DF72E0D7BC20097B3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE63DF82E0D7BC20097B3AE /* Build configuration list for PBXNativeTarget "Media ProcessorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE63DF92E0D7BC20097B3AE /* Debug */,
+				1EE63DFA2E0D7BC20097B3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EE63DC52E0D7BC00097B3AE /* Project object */;
+}

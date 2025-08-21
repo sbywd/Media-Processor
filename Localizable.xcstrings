@@ -1,0 +1,960 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%"
+          }
+        }
+      }
+    },
+    "%1$@ 和另外 %2$d 个处理项" : {
+      "comment" : "%1$@ 和另外 %2$d 个处理项",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ and %2$d more"
+          }
+        }
+      }
+    },
+    "%lld%%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%%"
+          }
+        }
+      }
+    },
+    "AAC" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AAC"
+          }
+        }
+      }
+    },
+    "Apple ProRes(硬件)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple ProRes(Hardware)"
+          }
+        }
+      }
+    },
+    "Apple ProRes(软件)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple ProRes(Software)"
+          }
+        }
+      }
+    },
+    "AV1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AV1"
+          }
+        }
+      }
+    },
+    "AVI" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AVI"
+          }
+        }
+      }
+    },
+    "Copy" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        }
+      }
+    },
+    "FLV" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FLV"
+          }
+        }
+      }
+    },
+    "H.264 (硬件)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "H.264 (Hardware)"
+          }
+        }
+      }
+    },
+    "H.264 (软件)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "H.264 (Software)"
+          }
+        }
+      }
+    },
+    "HEVC (硬件)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HEVC (Hardware)"
+          }
+        }
+      }
+    },
+    "HEVC (软件)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HEVC (Software)"
+          }
+        }
+      }
+    },
+    "Kbps" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kbps"
+          }
+        }
+      }
+    },
+    "MKV" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MKV"
+          }
+        }
+      }
+    },
+    "MOV" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MOV"
+          }
+        }
+      }
+    },
+    "MP3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MP3"
+          }
+        }
+      }
+    },
+    "MP4" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MP4"
+          }
+        }
+      }
+    },
+    "MPEG-4" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MPEG-4"
+          }
+        }
+      }
+    },
+    "Opus" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opus"
+          }
+        }
+      }
+    },
+    "Paste" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Patse"
+          }
+        }
+      }
+    },
+    "Select All" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select All"
+          }
+        }
+      }
+    },
+    "WEBM" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "WEBM"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "WEBM"
+          }
+        }
+      }
+    },
+    "x" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "x"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "x"
+          }
+        }
+      }
+    },
+    "中下" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mid-bottom"
+          }
+        }
+      }
+    },
+    "仅输出视频" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video Only"
+          }
+        }
+      }
+    },
+    "仅输出音频" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio Only"
+          }
+        }
+      }
+    },
+    "任务失败！" : {
+      "comment" : "任务失败！",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Task Failed!"
+          }
+        }
+      }
+    },
+    "位置: " : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Position: "
+          }
+        }
+      }
+    },
+    "位速率" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitrate"
+          }
+        }
+      }
+    },
+    "保持比例" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maintain Proportions"
+          }
+        }
+      }
+    },
+    "全部任务已完成" : {
+      "comment" : "全部任务已完成",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All tasks completed"
+          }
+        }
+      }
+    },
+    "全部开始" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start All"
+          }
+        }
+      }
+    },
+    "准备中..." : {
+      "comment" : "准备中...",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preparing…"
+          }
+        }
+      }
+    },
+    "分辨率" : {
+      "comment" : "分辨率",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resolution"
+          }
+        }
+      }
+    },
+    "删除" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove"
+          }
+        }
+      }
+    },
+    "剩余时间: 正在计算..." : {
+      "comment" : "剩余时间: 正在计算...",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time remaining: calculating..."
+          }
+        }
+      }
+    },
+    "剩余时间: 约 %@" : {
+      "comment" : "剩余时间",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time remaining: about %@"
+          }
+        }
+      }
+    },
+    "取消" : {
+      "comment" : "取消",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "变速" : {
+      "comment" : "变速",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speed Change"
+          }
+        }
+      }
+    },
+    "处理完成" : {
+      "comment" : "处理完成",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Process Completed"
+          }
+        }
+      }
+    },
+    "处理项..." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Operations"
+          }
+        }
+      }
+    },
+    "大小" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Size"
+          }
+        }
+      }
+    },
+    "字体: " : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Font: "
+          }
+        }
+      }
+    },
+    "字号:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Font Size:"
+          }
+        }
+      }
+    },
+    "字幕" : {
+      "comment" : "字幕",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subtitles"
+          }
+        }
+      }
+    },
+    "完成" : {
+      "comment" : "完成",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finish"
+          }
+        }
+      }
+    },
+    "容器" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Container"
+          }
+        }
+      }
+    },
+    "容器格式" : {
+      "comment" : "容器格式",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Container Format"
+          }
+        }
+      }
+    },
+    "宽度" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Width"
+          }
+        }
+      }
+    },
+    "尚未添加视频" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No video added yet"
+          }
+        }
+      }
+    },
+    "已取消" : {
+      "comment" : "已取消",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Canceled"
+          }
+        }
+      }
+    },
+    "帧速率" : {
+      "comment" : "帧速率",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frame Rate"
+          }
+        }
+      }
+    },
+    "拷贝属性" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy Operations"
+          }
+        }
+      }
+    },
+    "拷贝报错信息" : {
+      "comment" : "拷贝报错信息",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy the error message"
+          }
+        }
+      }
+    },
+    "描边宽度: " : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stroke Width: "
+          }
+        }
+      }
+    },
+    "描边颜色: " : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stroke Color: "
+          }
+        }
+      }
+    },
+    "整体进度: (%d/%d)" : {
+      "comment" : "整体进度: (%d/%d)",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overall Progress: (%1$d/%2$d)"
+          }
+        }
+      }
+    },
+    "整体进度: (0/0)" : {
+      "comment" : "整体进度: (0/0)",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overall Progress: (0/0)"
+          }
+        }
+      }
+    },
+    "整体进度: %d" : {
+      "comment" : "整体进度",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overall Progress: %d"
+          }
+        }
+      }
+    },
+    "无处理项" : {
+      "comment" : "无处理项",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Operations"
+          }
+        }
+      }
+    },
+    "更改" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change"
+          }
+        }
+      }
+    },
+    "未选择文件" : {
+      "comment" : "未选择文件",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No file selected"
+          }
+        }
+      }
+    },
+    "格式" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Format"
+          }
+        }
+      }
+    },
+    "正在准备..." : {
+      "comment" : "正在准备...",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preparing…"
+          }
+        }
+      }
+    },
+    "正在处理: %@" : {
+      "comment" : "正在处理",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Processing: %@"
+          }
+        }
+      }
+    },
+    "正在处理..." : {
+      "comment" : "正在处理...",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Processing…"
+          }
+        }
+      }
+    },
+    "添加条目" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Video Items"
+          }
+        }
+      }
+    },
+    "点击“添加条目”或直接拖拽视频文件到这里。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Click “Add Video Items” or drag video files to here."
+          }
+        }
+      }
+    },
+    "百分比" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Percentage"
+          }
+        }
+      }
+    },
+    "视频: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video: %@"
+          }
+        }
+      }
+    },
+    "视频: %1$dx%2$d | %3$@ | %4$dKbps | %5$@FPS" : {
+      "comment" : "视频详细信息",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video: %1$dx%2$d | %3$@ | %4$dKbps | %5$@FPS"
+          }
+        }
+      }
+    },
+    "视频: 未找到视频流" : {
+      "comment" : "视频: 未找到视频流",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video: No video stream found"
+          }
+        }
+      }
+    },
+    "视频位速率" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video Bitrate"
+          }
+        }
+      }
+    },
+    "视频比特率" : {
+      "comment" : "视频比特率",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video Bitrate"
+          }
+        }
+      }
+    },
+    "粘贴属性" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paste Operations"
+          }
+        }
+      }
+    },
+    "编码器" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encoder"
+          }
+        }
+      }
+    },
+    "输出位置: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Output Path: %@"
+          }
+        }
+      }
+    },
+    "选择文件" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose File"
+          }
+        }
+      }
+    },
+    "错误: 无法读取元数据" : {
+      "comment" : "错误: 无法读取元数据",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error: Unable to read metadata"
+          }
+        }
+      }
+    },
+    "错误：未找到视频条目" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error: No video items found"
+          }
+        }
+      }
+    },
+    "音频: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio: %@"
+          }
+        }
+      }
+    },
+    "音频: %1$@ | %2$dKbps" : {
+      "comment" : "音频详细信息",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio: %1$@ | %2$dKbps"
+          }
+        }
+      }
+    },
+    "音频: 未找到音频流" : {
+      "comment" : "音频: 未找到音频流",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio: No audio stream found"
+          }
+        }
+      }
+    },
+    "音频位速率" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio Bitrate"
+          }
+        }
+      }
+    },
+    "音频比特率" : {
+      "comment" : "音频比特率",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio Bitrate"
+          }
+        }
+      }
+    },
+    "顶部" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top"
+          }
+        }
+      }
+    },
+    "颜色: " : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Color: "
+          }
+        }
+      }
+    },
+    "高度" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Height"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
