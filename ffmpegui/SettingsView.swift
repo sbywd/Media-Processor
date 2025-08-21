@@ -60,7 +60,7 @@ struct SettingsView: View {
                     HStack {
                         TextField("预设名称", text: $preset.name)
                         Spacer()
-                        Button("更改") {
+                        Button("编辑") {
                             presetToEdit = preset
                         }
                     }

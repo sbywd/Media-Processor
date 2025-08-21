@@ -16,10 +16,11 @@ struct ProcessingProperties {
 class VideoItem: ObservableObject, Identifiable, Equatable {
     let id: UUID
     let url: URL
+    @Published var presetName: String?
     
     // MARK: - Published Properties
     @Published var thumbnail: NSImage?
-    @Published var videoInfo: String = "正在加载信息..."
+    @Published var videoInfo: String = String(NSLocalizedString("正在加载信息...", comment: "正在加载信息..."))
     @Published var audioInfo: String = ""
     @Published var duration: TimeInterval?
     
@@ -137,8 +138,9 @@ class VideoItem: ObservableObject, Identifiable, Equatable {
         ProcessingProperties(resolutionEnabled: resolutionEnabled, frameRateEnabled: frameRateEnabled, videoBitrateEnabled: videoBitrateEnabled, audioBitrateEnabled: audioBitrateEnabled, containerEnabled: containerEnabled, speedEnabled: speedEnabled, subtitleEnabled: subtitleEnabled, exportAudioOnlyEnabled: exportAudioOnlyEnabled, exportVideoOnlyEnabled: exportVideoOnlyEnabled, resolutionWidth: resolutionWidth, resolutionHeight: resolutionHeight, keepAspectRatio: keepAspectRatio, frameRate: frameRate, videoBitrate: videoBitrate, videoEncoder: videoEncoder, audioBitrate: audioBitrate, audioEncoder: audioEncoder, containerFormat: containerFormat, speedPercentage: speedPercentage, subtitleFilePath: subtitleFilePath, subtitlePosition: subtitlePosition, subtitleColor: subtitleColor, subtitleFont: subtitleFont, subtitleFontSize: subtitleFontSize, subtitleOutlineColor: subtitleOutlineColor, subtitleOutlineWidth: subtitleOutlineWidth)
     }
     
-    func apply(properties: ProcessingProperties) {
+    func apply(properties: ProcessingProperties, presetName: String? = nil) {
         resolutionEnabled = properties.resolutionEnabled; frameRateEnabled = properties.frameRateEnabled; videoBitrateEnabled = properties.videoBitrateEnabled; audioBitrateEnabled = properties.audioBitrateEnabled; containerEnabled = properties.containerEnabled; speedEnabled = properties.speedEnabled; subtitleEnabled = properties.subtitleEnabled; exportAudioOnlyEnabled = properties.exportAudioOnlyEnabled; exportVideoOnlyEnabled = properties.exportVideoOnlyEnabled; resolutionWidth = properties.resolutionWidth; resolutionHeight = properties.resolutionHeight; keepAspectRatio = properties.keepAspectRatio; frameRate = properties.frameRate; videoBitrate = properties.videoBitrate; videoEncoder = properties.videoEncoder; audioBitrate = properties.audioBitrate; audioEncoder = properties.audioEncoder; containerFormat = properties.containerFormat; speedPercentage = properties.speedPercentage; subtitleFilePath = properties.subtitleFilePath; subtitlePosition = properties.subtitlePosition; subtitleColor = properties.subtitleColor; subtitleFont = properties.subtitleFont; subtitleFontSize = properties.subtitleFontSize; subtitleOutlineColor = properties.subtitleOutlineColor; subtitleOutlineWidth = properties.subtitleOutlineWidth
+        self.presetName = presetName
     }
     
     var adjustedDuration: TimeInterval? {

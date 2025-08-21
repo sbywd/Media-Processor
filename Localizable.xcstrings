@@ -42,17 +42,6 @@
         }
       }
     },
-    "Apple ProRes(硬件)" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Apple ProRes(Hardware)"
-          }
-        }
-      }
-    },
     "Apple ProRes(软件)" : {
       "localizations" : {
         "en" : {
@@ -654,7 +643,18 @@
       }
     },
     "新预设" : {
-      "comment" : "新预设"
+      "comment" : "新预设",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Preset"
+          }
+        }
+      }
+    },
+    "无" : {
+
     },
     "无处理项" : {
       "comment" : "无处理项",
@@ -706,6 +706,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Preparing…"
+          }
+        }
+      }
+    },
+    "正在加载信息..." : {
+      "comment" : "正在加载信息...",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading…"
           }
         }
       }
@@ -835,6 +846,16 @@
         }
       }
     },
+    "编辑" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit"
+          }
+        }
+      }
+    },
     "输出位置: %@" : {
       "localizations" : {
         "en" : {
@@ -940,13 +961,37 @@
       }
     },
     "预设" : {
-      "comment" : "预设"
+      "comment" : "预设",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Presets"
+          }
+        }
+      }
     },
     "预设名称" : {
-      "comment" : "预设名称"
+      "comment" : "预设名称",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preset Name"
+          }
+        }
+      }
     },
     "预设设置..." : {
-
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preset Settings"
+          }
+        }
+      }
     },
     "颜色: " : {
       "localizations" : {

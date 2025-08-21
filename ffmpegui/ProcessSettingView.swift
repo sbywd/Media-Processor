@@ -9,22 +9,26 @@ struct ProcessSettingView: View {
     @Environment(\.dismiss) var dismiss
     @EnvironmentObject var presetViewModel: PresetViewModel
 
-    private let subtitleFilePicker: NSOpenPanel
+    private let subtitleFilePicker: NSOpenPanel?
 
     init(item: VideoItem, isEditingPreset: Bool = false) {
         self.item = item
         self.isEditingPreset = isEditingPreset
         
-        let panel = NSOpenPanel()
-        panel.canChooseFiles = true
-        panel.canChooseDirectories = false
-        panel.allowsMultipleSelection = false
-        panel.allowedContentTypes = [
-            UTType(filenameExtension: "srt") ?? .plainText,
-            UTType(filenameExtension: "ass") ?? .plainText,
-            UTType(filenameExtension: "vtt") ?? .plainText
-        ]
-        self.subtitleFilePicker = panel
+        if !isEditingPreset {
+            let panel = NSOpenPanel()
+            panel.canChooseFiles = true
+            panel.canChooseDirectories = false
+            panel.allowsMultipleSelection = false
+            panel.allowedContentTypes = [
+                UTType(filenameExtension: "srt") ?? .plainText,
+                UTType(filenameExtension: "ass") ?? .plainText,
+                UTType(filenameExtension: "vtt") ?? .plainText
+            ]
+            self.subtitleFilePicker = panel
+        } else {
+            self.subtitleFilePicker = nil
+        }
     }
 
     var body: some View {
@@ -140,7 +144,7 @@ struct ProcessSettingView: View {
                                     }
                                 }
                                 .disabled(item.videoEncoder.contains("Apple ProRes"))
-                                .frame(height: 0)
+                                .frame(width: 120, height: 0)
                             }
                         }
                         Spacer()
@@ -209,21 +213,40 @@ struct ProcessSettingView: View {
                     .disabled(item.containerFormat == "MP3" && item.containerEnabled)
                 Spacer()
                 if !isEditingPreset {
-                    Menu("预设") {
-                        if #available(macOS 14.0, *) {
-                            SettingsLink {
-                                Text("预设设置...")
+                    HStack {
+                        Picker("预设", selection: Binding(
+                            get: { item.presetName ?? "" },
+                            set: { newPresetName in
+                                if newPresetName == "" {
+                                    item.presetName = nil
+                                } else {
+                                    if let selectedPreset = presetViewModel.presets.first(where: { $0.name == newPresetName }) {
+                                        item.apply(properties: selectedPreset.toProcessingProperties(), presetName: selectedPreset.name)
+                                    }
+                                }
                             }
-                        } else {
-                            Button("预设设置...") {
-                                NSApp.sendAction(Selector(("showSettingsWindow:")), to: nil, from: nil)
+                        )) {
+                            Text("无").tag("")
+                            ForEach(presetViewModel.presets) { preset in
+                                Text(preset.name).tag(preset.name)
                             }
                         }
-                        Divider()
-                        ForEach(presetViewModel.presets) { preset in
-                            Button(preset.name) {
-                                item.apply(properties: preset.toProcessingProperties())
+                        .frame(width: 150) // Adjust width as needed
+                        
+                        if #available(macOS 14.0, *) {
+                            SettingsLink {
+                                Image(systemName: "gearshape")
+                                    .font(.title2)
                             }
+                            .buttonStyle(PlainButtonStyle())
+                        } else {
+                            Button {
+                                NSApp.sendAction(Selector(("showSettingsWindow:")), to: nil, from: nil)
+                            } label: {
+                                Image(systemName: "gearshape")
+                                    
+                            }
+                            .buttonStyle(PlainButtonStyle())
                         }
                     }
                 }
@@ -244,8 +267,9 @@ struct ProcessSettingView: View {
     }
     
     private func showSubtitleFilePicker() {
+        guard let subtitleFilePicker = subtitleFilePicker else { return }
         subtitleFilePicker.begin { response in
-            if response == .OK, let url = self.subtitleFilePicker.url {
+            if response == .OK, let url = subtitleFilePicker.url {
                 DispatchQueue.main.async {
                     self.item.subtitleFilePath = url.path
                 }
