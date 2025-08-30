@@ -370,18 +370,37 @@ class VideoItem: ObservableObject, Identifiable, Equatable {
             }
             
         }
+        // 假设 components, Filters, videoFilters, audioFilters 已经定义
         var mapComponents: [String] = []
 
+        // 步骤 1: 构建滤镜链 (这部分逻辑是正确的，保持不变)
         if !videoFilters.isEmpty {
             Filters.append("[0:v]\(videoFilters.joined(separator: ","))[v]")
-            mapComponents.append("-map \"[v]\"")
         }
         if !audioFilters.isEmpty {
             Filters.append("[0:a]\(audioFilters.joined(separator: ","))[a]")
-            mapComponents.append("-map \"[a]\"")
-
         }
-        if !Filters.isEmpty{
+
+        // 步骤 2: 如果存在任何滤镜，则构建 filter_complex 和完整的 map 参数
+        if !Filters.isEmpty {
+            // 关键修正：在这里构建正确的 mapComponents
+            if !videoFilters.isEmpty {
+                // 如果视频被处理了，映射处理后的视频流 [v]
+                mapComponents.append("-map \"[v]\"")
+            } else {
+                // 否则，映射原始视频流 0:v (因为我们能进入这个if块，说明音频肯定有滤镜)
+                mapComponents.append("-map 0:v")
+            }
+            
+            if !audioFilters.isEmpty {
+                // 如果音频被处理了，映射处理后的音频流 [a]
+                mapComponents.append("-map \"[a]\"")
+            } else {
+                // 否则，映射原始音频流 0:a (因为视频肯定有滤镜)
+                mapComponents.append("-map 0:a")
+            }
+            
+            // 步骤 3: 组合最终的参数字符串 (与您原来的代码一致)
             components.append("-filter_complex \"\(Filters.joined(separator: ";"))\" \(mapComponents.joined(separator: " "))")
         }
         components.append("-y \"\(outputPath)\"")

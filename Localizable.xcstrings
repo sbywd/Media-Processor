@@ -982,17 +982,6 @@
         }
       }
     },
-    "预设设置..." : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Preset Settings"
-          }
-        }
-      }
-    },
     "颜色: " : {
       "localizations" : {
         "en" : {
